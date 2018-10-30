@@ -1,0 +1,132 @@
+<!DOCTYPE html><html><head>
+        
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+                font-family: "Roboto",Arial,sans-serif;
+            }
+            
+            .wrapper {
+                min-height: 100vh;
+                width: 100vw;
+            }
+            
+            .container {
+                display: flex;
+                flex-direction: horizontal;
+                flex-wrap: nowrap;
+                align-items: center;
+                width: 100%;
+            }
+            
+            .container-center {
+                justify-content: center;
+            }
+            
+            .container-topbar {
+                justify-content: space-between;
+                background-color: lightgrey;
+            }
+            
+            .main-nav ul {
+                list-style: none;
+            }
+            
+            .main-nav li {
+                display: inline-block;
+            }
+            
+            .main-nav li a {
+                display: inline-block;
+                padding: 0.5em;
+                height: 60px;
+                vertical-align: middle;
+            }
+            
+            .bg-container {
+                background: white url(./background-image.png) no-repeat 50% 0;
+                background-size: cover;
+            }
+            
+            .btn {
+                padding: 0.5em;
+                background-color: lightgrey;
+                color: black;
+            }
+            
+            .btn.btn-white {
+                background-color: white;
+                color: orange;
+            }
+            
+            .bg-container h2, .bg-container p {
+                color: white;
+            }
+            
+            .bg-container h2 {
+                font-size: 40;
+            }
+            
+            .bg-container p {
+                font-size: 16px;
+            }
+            
+            .container-center h2 {
+                color: lightblue;
+                font-size: 28px;
+            }
+            
+            .container-center p {
+                font-size: 16px;
+                color: grey;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container container-topbar">
+                <div class="item-left">
+                    <img src="./logo.png" alt="logo">
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="">APPS</a></li>
+                            <li><a href="">CHARTS</a></li>
+                            <li><a href="">SHAZAM</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="item-right">
+                    <input type="text" placeholder="Search for music">
+                    <button type="button" class="btn">LOGIN</button>
+                </div>
+            </div>
+            <div class="bg-container">
+                <div class="container">
+                    <div class="item-left">
+                        <img src="./devices.png" alt="devices">    
+                    </div>
+                    <div class="item-right">
+                        <h1>Name any song in seconds</h1>
+                        <p>Shazam will identify any music playing around you</p>
+                        <a href="#" class="btn btn-white">GET IT NOW</a>
+                    </div>
+                </div>
+                <div class="container container-center">
+                    <div class="item-center">
+                        <h2>Artists on Shazam</h2>
+                        <p>What should you be listening right now? Let your favorite artists tell you!</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    
+
+
+
+
+
+</body></html>

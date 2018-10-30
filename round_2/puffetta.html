@@ -1,0 +1,128 @@
+<!DOCTYPE html><html><head>
+        <title></title>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+        
+            body {
+                background-color: #000;
+            }
+            
+            main {
+                background-image: url(./tizio-dietro.jpg);
+                background-size: 100%;
+                width: 100%;
+            }
+            
+            nav li {
+                display: inline-block;
+                color: #FFF;
+            }
+            
+            nav li.logo {
+                margin-left: 0;
+            }
+            
+            nav ul {
+                display: block;
+                height: 60px;
+            }
+            
+            nav ul > li:not(:first-child) {
+                float: right;
+                margin-right: 20px;
+            }
+            
+            nav ul > li:first-child {
+                float: left;
+            }
+            
+            nav li.divisor {
+                border-left: 1px solid #FFF;
+                height: 5px;
+            }
+            
+            #crossline {
+                border-bottom: 1px solid #FFF;  
+            }
+            
+            #claim {
+                border-radius: 25px;
+                color: #FFF;
+                background-color: orange;
+                float: right;
+            }
+            
+            #pseudofooter {
+                margin-bottom: 0;
+            }
+            
+            main > p {
+                font-size: 200px;
+            }
+            
+            main > div {
+                margin-right: 0;
+                position: absolute;
+                top: 200px;
+                background-color: rgba(0,0,0,0.5);
+                color: #FFF;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="logo">
+                        <img alt="logo spotify for artists" src="./logoApotifyForArtists.svg">
+                    </li>
+                    <li>
+                        <a href="#">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#">Guide</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li class="divisor"></li>
+                    <li>
+                        <a href="#">Claim your profile</a>
+                    </li>
+                    <li>
+                        <a href="#">Log In</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>Make Spotify yours.</p>
+            <div>
+                <p>Amin&#xE9;</p>
+                <p>6,21M Monthly Listeners</p>
+            </div>
+            
+            <div id="crossline"></div>
+            <div id="pseudofooter">
+                <p>
+                    Spotify helps you make the most of your music. Sign up and take control of your profile.
+                </p>
+                <p id="claim">Claim Yours</p>
+            </div>
+        </main>
+    
+
+
+
+
+
+
+
+
+</body></html>

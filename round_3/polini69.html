@@ -1,0 +1,153 @@
+<html><head><style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .site {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .site > * {
+            flex: 1;
+            padding: 0 150px;
+        }
+        
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 255, 0.4);
+            background-image: url(./column-bg.png);
+            background-size: 230%;
+            background-position: 60% 50%;
+            color: white;
+        }
+        
+        .left .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            text-align: left;
+            margin: 40px 0;
+        }
+        
+        .left .item p {
+            flex: 1;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .left .item img {
+            display: inline-block;
+            vertical-align: middle;
+            min-width: 50px;
+            margin-right: 20px;
+        }
+        
+        .right {
+            background: white;
+            color: rgba(0, 0, 0, .9);
+        }
+        
+
+        .right h1 {
+            font-size: 32px;
+        }
+        
+        button {
+            width: 100%;
+            border: 0;
+            border-radius: 50px;
+            margin: 30px 0;
+            padding: 15px 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .right {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .login {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 40px;
+            left: 100px;
+            right: 100px;
+        }
+        
+        .login input {
+            padding: 20px 15px;
+            border: 1px solid blue;
+            color: gray;
+        }
+        
+    </style></head>
+    
+    <body>
+        <div class="site">
+            <div class="left">
+                <div class="item"><img src="./icon-lens.png"> <p>Segui i tuoi interessi</p></div>
+                <div class="item"><img src="./icon-users.png"> <p>Ascolta ci&#xF2; di cui stanno parlando gli altri</p></div>
+                <div class="item"><img src="./icon-bubble.png"> <p>Partecipa alla conversazione</p></div>
+            </div>
+            <div class="right">
+                <div class="login">
+                    <input style="flex-basis: 30%;" type="text" value="Numero, email o utente">
+                    <input style="flex-basis: 30%;" type="text" value="Password">
+                    <button style="flex-basis: 20%;">Accedi</button>
+                </div>
+                
+                <img src="./logo.png" style="margin-bottom: 20px;">
+                <h1>Guarda cosa sta<br>succedendo nel mondo<br> in questo istante</h1>
+                
+                <h3 style="margin-top: 70px; font-size: 25px;">Iscriviti adesso a twitter</h3>
+                
+                <button style="background: blue; color: white">Iscriviti</button>
+                <button style="border: 4px solid blue; color: blue; background: white">Accedi</button>
+            </div>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

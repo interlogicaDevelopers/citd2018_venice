@@ -1,0 +1,159 @@
+<!DOCTYPE html><html><head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+                color: white;
+                font-family: Calibri,Arial,sans-serif;
+            }
+            
+            .wrapper {
+                width: 100%;
+                min-height: 100vh;
+                
+                background: lightblue url(./robot.svg) no-repeat 100% 100%;
+                background-size: 50% auto;
+            }
+            
+            .container {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: middle;
+            }
+            
+            .container-topbar {
+                justify-content: flex-end;
+                height: 60px;
+            }
+            
+            .container-navigation {
+                justify-content: space-between;
+                height: 120px;
+            }
+            
+            .container-hero {
+               justify-content: flex-start; 
+            }
+            
+            .item-hero {
+                margin-top: 0;
+                margin-bottom: auto;
+                width: 50%;
+            }
+            
+            .item-hero h1 {
+                font-size: 60px;
+                font-weight: 300;
+                color: blue;
+            }
+            
+            .btn {
+                padding: 0.5em;
+                font-size: 16px;
+                color: white;
+                border-radius: 3px;
+                background-color: yellow;
+                text-transform: uppercase;
+                vertical-align: middle;
+            }
+            
+            .link-text {
+                text-decoration: underline;
+                color: white;
+                font-size: 16px;
+                padding: 0.5em;
+                vertical-align: middle;
+            }
+            
+            .container-footer {
+                justify-content: center;
+                margin-top: auto;
+                margin-bottom: 0;
+                height: 150px;
+                
+                background-color: rgba(#0000aa, 0.3);
+            }
+            
+            .item-footer {
+                padding: 20px;
+                width: 45%;
+                text-align: center;
+            }
+            
+            .item-footer h2 {
+                font-size: 24px;
+                font-weight: 500;
+            }
+            
+            .item-footer p {
+                font-size: 14px;
+                line-height: 1.8em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container container-topbar">
+                <img src="./adobelogotext.svg" width="100" class="logo-adobe">
+            </div>
+            <div class="container container-navigation">
+                <div class="item item-logo">
+                    <img src="./logo.svg" class="logo-pg">
+                </div>
+                <div class="item item-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Get Started</a></li>
+                            <li><a href="">Docs</a></li>
+                            <li><a href="">Apps Showcase</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="container container-hero">
+                <div class="item-hero">
+                    <h1>Build amazing mobie apps
+                    <br>powered by open web tech</h1>
+                    <div>
+                        <a href="#" class="btn btn-yellow">START NOW</a>
+                        <a href="#" class="link-text">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container container-footer">
+                <div class="item-footer">
+                    <h2>
+                        Create your app with PhoneGAP
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor etc
+                    </p>
+                </div>
+                <div class="item-footer">
+                    <h2>
+                        Create your app with PhoneGAP
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor etc Lorem ipsum dolor etcLorem ipsum dolor etc
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+</body></html>

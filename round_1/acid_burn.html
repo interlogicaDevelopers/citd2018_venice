@@ -1,0 +1,95 @@
+<html><head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                padding: 30px;
+                max-width: 100vw;
+                
+            }
+            div {
+                box-sizing: border-box;
+            }
+            ul li{
+                list-style: none;
+                display: inline-block;
+            }
+            a, a:hover {
+                text-decoration: none;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+            }
+            nav {
+                display: flex;
+            }
+            .logo {
+                flex-grow: 1;
+            }
+            ul {
+                flex-grow: 2;
+                text-align: right;
+            }
+            li a, button{
+                background: darkblue;
+                color: white;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-size: 24px;
+                text-transform: uppercase;
+                padding: 5px 20px;
+                border-radius: 20px;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+                border: 0;
+            }
+            button {
+                text-transform: lowcase;
+                font-size: 22px;
+                font-weight: bold;
+            }
+            li {
+                margin-left: 30px;
+            }
+            .content {
+                display: flex;
+                flex-direction: row;
+                margin: 30px 200px;
+            }
+            .content-image, .content-text {
+                flex-grow: 1;
+            }
+            h1 {
+                font-size: 42px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="./logo.png">
+                </div>
+                <ul>
+                    <li><a href="#"></a>home</li>
+                    <li><a href="#"></a>block my line</li>
+                    <li><a href="#"></a>faq</li>
+                    <li><a href="#"></a>contact</li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="content-image">
+                    <img src="./phone.png">
+                </div>
+                <div class="content-text">
+                    <h1>Blow up your friends phone with texts or calls</h1>
+                    <p>Send massive around of text your phone calls anonimous to your fliend. select <strong>
+                        how many and how fast thei recive them</strong></p>
+                    <button>start your prank calls</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    
+</body></html>

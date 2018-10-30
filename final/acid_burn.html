@@ -1,0 +1,105 @@
+<html><head>
+        <style>
+            body{
+                max-width: 100%;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            div{
+                box-sizing: border-box;
+                position: relative;
+            }
+            ul li{
+                display: inline-block;
+                color: white;
+                margin-left: 20px;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                background: lightblue;
+            }
+            nav{
+                display: flex;
+                margin: 80px 80px 0;
+            }
+            .logo, .content-text, .content-image, .left, .right {
+                flex-grow: 1;
+            }
+            .left, .right{
+                text-align: center;
+                max-width: 500px;
+            }
+            ul{
+                flex-grow: 2;
+                text-align: right;
+            }
+            .content{
+                display: flex;
+                flex-direction: row
+                position: relative;
+                color: white;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+            button {
+                text-transform: uppercase;
+                background: orange;
+                border: 0;
+                border-radius: 15px;
+            }
+            a{
+                color: white;
+            }
+            h1{
+                font-size: 32px;
+                margin-bottom: 40px;
+                color: lightblue;
+            }
+            .footer {
+               position: absolute;
+               display: flex;
+               flex-direction: row;
+               bottom: 0;
+               right: 0;
+               width: 100%;
+               justify-items: space-between;
+               
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="test"><img src="./adobelogotext.svg"></div>
+            <nav>
+                <div class="logo">
+                    <img src="./logo.svg">
+                </div>
+                <ul>
+                    <li>Product</li>
+                     <li>get started</li>
+                  <li>docs</li>
+                   <li>app showcase</li>
+                    <li>log</li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="content-text">
+                    <h1>Build amazing mobile apps<br>powered by open web tech</h1>
+                    <button>start now</button>
+                    <a>learn more</a>
+                </div>
+                <div class="content-image">
+                    <img src="./robot.svg">
+                </div>
+                <div class="footer">
+                    <div class="left">Create your phone app with PhoneGrab</div>
+                    <div class="right">Package your app in the cloud</div>
+                </div>
+            </div>
+        </div>
+    
+</body></html>
